@@ -1,0 +1,10 @@
+body {
+    background: lightblue;
+}
+
+ .player1_login , .player2_login {
+    
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+ }
