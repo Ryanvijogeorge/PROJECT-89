@@ -1,0 +1,35 @@
+body
+{
+	background-image: url("No. bg.png");
+	color:rgb(0, 128, 0);
+}
+
+#headingd {
+	background-color: rgba(255, 255, 0, 0.685);
+	visibility: visible;
+	width: 100%;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: rgba(255, 166, 0, 0.876);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+        color: red;
+        
+	}
+
+
+
+#output
+{
+background: white;
+border-radius: 10px;
+border-top:  10px solid #AA4465;
+padding:10px;
+float:none;
+text-align: left;
+width: 600px;
+}
+
