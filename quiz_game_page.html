@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" type="text/css" href="quiz_game.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <h4 id="player1_name"></h4> <span id="player1_score"></span>
+    <br>
+    <h4 id="player2_name"></h4> <span id="player2_score"></span>
+
+    <div class="container">
+        <center>
+            <h2 style="color:white; font-family:   Arial, Helvetica, sans-serif; font-size: 40px; font-weight:500;">The Math Quiz Game</h2>
+            <br>
+            <Br>
+                <div id = "qad">
+            <h3 id="player_question" class = "text-success">Question Turn - null</h3>
+            <h3 id="player_answer" class="text-success">Answer Turn - null</h3>
+            </div>
+            <div id="output" class = "col-lg-6">
+                
+            </div>
+            <br>
+            <br>
+            <br>
+            <hr>
+            
+            <label style = "font-size: 25px;" class = "text-info"><b>Number 1</b></label>
+            <br>
+            <input id = "number1" type = "text" class = "word" class = "form-control" placeholder="Number 1">
+            <br>
+            <br>
+            <br>
+            <br>
+            <label style = "font-size: 25px;" class = "text-info">Number 2</label>
+<br>
+            <input id = "number2" type = "text" class = "word" class = "form-control" placeholder="Number 2">
+            <br>
+            <Br>
+                <br>
+                
+             <button style = "width: 30%; " class = "btn btn-info" onclick="send()">Send</button>
+        </center>
+    </div>
+
+    <script src="quiz_game_page.js"></script>
+</body>
+<style>
+    body {
+        background: chocolate;
+    }
+
+    .word {
+        width:60%
+    }
+
+    #qad {
+        background:darkorange;
+        width: 30%;
+        border-radius: 10px;
+       
+    }
+</style>
+</html>
